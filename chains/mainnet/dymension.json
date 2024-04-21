@@ -18,7 +18,7 @@
     "assets": [{
         "base": "adym",
         "symbol": "DYM",
-        "exponent": "6",
+        "exponent": "18",
         "coingecko_id": "dymension", 
         "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png"
     }],
