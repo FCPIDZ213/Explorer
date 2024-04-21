@@ -12,7 +12,7 @@
             "provider": "CoinHunters"
         }
     ],
-    "sdk_version": "v0.47.6",
+    "sdk_version": "v0.50.3",
     "coin_type": "118",
     "min_tx_fee": "5000000000000000",
     "assets": [{
