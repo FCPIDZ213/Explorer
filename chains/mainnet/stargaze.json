@@ -19,7 +19,7 @@
         "base": "ustars",
         "symbol": "STARS",
         "exponent": "6",
-        "coingecko_id": "zetachain", 
+        "coingecko_id": "stargaze", 
         "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png"
     }],
     "addr_prefix": "stargaze",
