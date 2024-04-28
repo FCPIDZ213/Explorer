@@ -1,5 +1,5 @@
 {
-    "chain_name": "zetachain",
+    "chain_name": "Zetachain-Mainnet",
     "api": [
         {
             "address": "https://zetachain-api.chainad.org/", 
