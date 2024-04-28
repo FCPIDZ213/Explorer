@@ -1,5 +1,5 @@
 {
-    "chain_name": "dymension",
+    "chain_name": "Dymension-Mainnet",
     "api": [
         {
             "address": "https://dymension-api.chainad.org/", 
