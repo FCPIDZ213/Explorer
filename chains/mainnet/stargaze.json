@@ -1,5 +1,5 @@
 {
-    "chain_name": "stargaze",
+    "chain_name": "Stargaze-Mainnet",
     "api": [
         {
             "address": "https://stargaze-api.chainad.org/", 
