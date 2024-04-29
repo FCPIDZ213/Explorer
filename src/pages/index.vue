@@ -196,7 +196,6 @@ const chainStore = useBlockchain()
 <path d="M0 0 C2.375 0.6875 2.375 0.6875 5 2 C6.3125 4.625 6.3125 4.625 7 7 C3.00003714 5.66667905 2.16217663 3.5042173 0 0 Z " fill="#A5C2D3" transform="translate(348,191)"/>
 <path d="M0 0 C0.66 0.33 1.32 0.66 2 1 C2 1.66 2 2.32 2 3 C0.1875 4.0625 0.1875 4.0625 -2 5 C-2.99 4.67 -3.98 4.34 -5 4 C-3.35 2.68 -1.7 1.36 0 0 Z " fill="#F6F6F6" transform="translate(213,103)"/>
 </svg>
-        </svg>
       </div>
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
