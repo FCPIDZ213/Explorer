@@ -215,12 +215,12 @@ function selected(route: any, nav: NavLink) {
           {{ $t('module.sponsors') }}
         </div>
         <a
-          href="https://osmosis.zone"
+          href="https://dymension.xyz/"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://ping.pub/logos/osmosis.jpg"
+            src="https://coinhunterstr.com/wp-content/uploads/2024/02/dymension.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
@@ -230,12 +230,12 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          href="https://celestia.org"
+          href="https://crossfi.org/"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://ping.pub/logos/celestia.png"
+            src="https://coinhunterstr.com/wp-content/uploads/2024/04/Horizontal-version-%E2%80%93-Main-Color-CROSS-FINANCE.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
@@ -245,12 +245,12 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          href="https://becole.com"
+          href="https://www.plumenetwork.xyz/"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://becole.com/static/logo/logo_becole.png"
+            src="https://coinhunterstr.com/wp-content/uploads/2024/02/plume.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
@@ -289,7 +289,7 @@ function selected(route: any, nav: NavLink) {
         </a>
         <a
           v-if="showDiscord"
-          href="https://discord.com/invite/CmjYVSr6GW"
+          href="https://discord.gg/ydZX5ZhyBv"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -301,7 +301,7 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          href="https://github.com/ping-pub/explorer/discussions"
+          href="https://github.com/CoinHuntersTR"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
