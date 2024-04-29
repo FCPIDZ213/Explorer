@@ -21,16 +21,10 @@
       class="hidden md:!block"
     >
       <a
-        class="link link-primary no-underline mr-4"
-        href="https://coinhunterstr.com/"
-        target="noopener noreferrer"
-        >CoinHunters</a
-      >
-      <a
         class="link link-primary no-underline"
-        href="https://nodes.coinhunterstr.com/"
+        href="https://github.com/CoinHuntersTR"
         target="noopener noreferrer"
-        >CoinHunters Nodes</a
+        >CoinHunters Github</a
       >
     </div>
   </footer>
