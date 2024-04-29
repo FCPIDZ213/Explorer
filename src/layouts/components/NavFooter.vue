@@ -22,15 +22,15 @@
     >
       <a
         class="link link-primary no-underline mr-4"
-        href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
+        href="https://coinhunterstr.com/"
         target="noopener noreferrer"
-        >License</a
+        >CoinHunters</a
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://nodes.coinhunterstr.com/"
         target="noopener noreferrer"
-        >Github</a
+        >CoinHunters Nodes</a
       >
     </div>
   </footer>
