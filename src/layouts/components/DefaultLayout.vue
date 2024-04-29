@@ -229,6 +229,21 @@ function selected(route: any, nav: NavLink) {
             Dymension
           </div>
         </a>
+            <a
+          href="https://lavanet.xyz/"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <img
+            src="https://pbs.twimg.com/profile_images/1628433459977850882/l4oqDz8R_400x400.jpg"
+            class="w-6 h-6 rounded-full mr-3"
+          />
+          <div
+            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Lava Network
+          </div>
+        </a>
         <a
           href="https://crossfi.org/"
           target="_blank"
