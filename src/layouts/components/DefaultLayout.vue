@@ -220,13 +220,13 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://coinhunterstr.com/wp-content/uploads/2024/02/dymension.png"
+            src="https://pbs.twimg.com/profile_images/1663159896701820928/by0GLREA_400x400.jpg"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
             class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Osmosis
+            Dymension
           </div>
         </a>
         <a
@@ -235,13 +235,13 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://coinhunterstr.com/wp-content/uploads/2024/04/Horizontal-version-%E2%80%93-Main-Color-CROSS-FINANCE.png"
+            src="https://pbs.twimg.com/profile_images/1719733805483790336/9rtdiMS-_400x400.jpg"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
             class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Celestia
+            CrossFi
           </div>
         </a>
         <a
@@ -250,13 +250,13 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
           <img
-            src="https://coinhunterstr.com/wp-content/uploads/2024/02/plume.png"
+            src="https://pbs.twimg.com/profile_images/1767624096404443137/vQFNuneA_400x400.jpg"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
             class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Becole
+            Plume Network
           </div>
         </a>
 
@@ -309,7 +309,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            FAQ
+            Github
           </div>
         </a>
       </div>
