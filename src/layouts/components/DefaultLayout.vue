@@ -292,8 +292,36 @@ function selected(route: any, nav: NavLink) {
           >
             Telegram
           </div>
-        </a>
-       
+        </a>       
    </div>
-      
-      
+     <div class="xl:!ml-64 px-3 pt-4">
+      <!-- header -->
+      <div
+        class="flex items-center py-3 bg-base-100 mb-4 rounded px-4 sticky top-0 z-10"
+      >
+        <div
+          class="text-2xl pr-3 cursor-pointer xl:!hidden"
+          @click="sidebarShow = true"
+        >
+          <Icon icon="mdi-menu" />
+        </div>
+        <ChainProfile />
+        <div class="flex-1 w-0"></div>
+        <!-- <NavSearchBar />-->
+        <NavBarI18n class="hidden md:!inline-block" />
+        <NavbarThemeSwitcher class="!inline-block" />
+        <NavbarSearch class="!inline-block" />
+        <NavBarWallet />
+      </div>
+      <!-- 👉 Pages -->
+      <div style="min-height: calc(100vh - 180px);">
+        <RouterView v-slot="{ Component }">
+          <Transition mode="out-in">
+            <Component :is="Component" />
+          </Transition>
+        </RouterView>
+      </div>
+      <newFooter />
+    </div>
+  </div>
+</template>  
