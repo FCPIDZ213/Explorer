@@ -3,13 +3,13 @@
     "api": [
         {
             "address": "https://stargaze-api.chainad.org/", 
-            "provider": "CoinHunters"
+            "provider": "DZ-staking"
         }
     ], 
     "rpc": [
         {
             "address": "https://stargaze-rpc.chainad.org/", 
-            "provider": "CoinHunters"
+            "provider": "DZ-staking"
         }
     ],
     "sdk_version": "v0.47.10",
