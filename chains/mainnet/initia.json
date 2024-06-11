@@ -8,8 +8,8 @@
     ], 
     "rpc": [
         {
-            "address": "https://initia-rpc.chainad.org/", 
-            "provider": "CoinHunters"
+            "address": "https://rpc.initia.dz-staking.com/", 
+            "provider": "DZ-staking"
         }
     ],
     "sdk_version": "v0.0.0-20240514173001-c037b6c44d98",
