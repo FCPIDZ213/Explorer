@@ -22,7 +22,7 @@
     >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/CoinHuntersTR"
+        href="https://github.com/FCPIDZ213"
         target="noopener noreferrer"
         >DZ-staking Github</a
       >
