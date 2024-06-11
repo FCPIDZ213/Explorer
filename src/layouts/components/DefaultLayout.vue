@@ -230,7 +230,7 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
             
-          <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+          <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
             Tools
           </div>
           <RouterLink to="/wallet/suggest"
