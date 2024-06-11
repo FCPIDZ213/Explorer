@@ -229,52 +229,7 @@ function selected(route: any, nav: NavLink) {
             Dymension
           </div>
         </a>
-            <a
-          href="https://lavanet.xyz/"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://pbs.twimg.com/profile_images/1628433459977850882/l4oqDz8R_400x400.jpg"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Lava Network
-          </div>
-        </a>
-        <a
-          href="https://crossfi.org/"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://pbs.twimg.com/profile_images/1719733805483790336/9rtdiMS-_400x400.jpg"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            CrossFi
-          </div>
-        </a>
-        <a
-          href="https://www.plumenetwork.xyz/"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://pbs.twimg.com/profile_images/1767624096404443137/vQFNuneA_400x400.jpg"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Plume Network
-          </div>
-        </a>
-
+            
           <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
             Tools
           </div>
@@ -291,7 +246,7 @@ function selected(route: any, nav: NavLink) {
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
-          href="https://coinhunterstr.com/"
+          href="https://dz-staking.com/"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -299,11 +254,11 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            CoinHunters Web
+            DZ-staking Web
           </div>
         </a>
         <a
-          href="https://nodes.coinhunterstr.com/"
+          href="https://dz-staking.com/"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -311,11 +266,11 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            CoinHunters Nodes
+            DZ-staking Nodes
           </div>
         </a>
         <a
-          href="https://twitter.com/CoinHuntersTR"
+          href="https://twitter.com/DZstaking"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -327,7 +282,7 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          href="https://t.me/CoinHuntersTR"
+          href="https://t.me/DZstaking"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -338,66 +293,7 @@ function selected(route: any, nav: NavLink) {
             Telegram
           </div>
         </a>
-        <a
-          href="https://www.youtube.com/@CoinHuntersTR"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <Icon icon="mdi:youtube" class="text-xl mr-2" />
-          <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Youtube
-          </div>
-        </a>
-        <a
-          v-if="showDiscord"
-          href="https://discord.gg/ydZX5ZhyBv"
-          target="_blank"
-          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <Icon icon="mdi:discord" class="text-xl mr-2" />
-          <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Discord
-          </div>
+       
+   </div>
         </a>
       </div>
-    </div>
-    <div class="xl:!ml-64 px-3 pt-4">
-      <!-- header -->
-      <div
-        class="flex items-center py-3 bg-base-100 mb-4 rounded px-4 sticky top-0 z-10"
-      >
-        <div
-          class="text-2xl pr-3 cursor-pointer xl:!hidden"
-          @click="sidebarShow = true"
-        >
-          <Icon icon="mdi-menu" />
-        </div>
-
-        <ChainProfile />
-
-        <div class="flex-1 w-0"></div>
-
-        <!-- <NavSearchBar />-->
-        <NavBarI18n class="hidden md:!inline-block" />
-        <NavbarThemeSwitcher class="!inline-block" />
-        <NavbarSearch class="!inline-block" />
-        <NavBarWallet />
-      </div>
-
-      <!-- 👉 Pages -->
-      <div style="min-height: calc(100vh - 180px);">
-        <RouterView v-slot="{ Component }">
-          <Transition mode="out-in">
-            <Component :is="Component" />
-          </Transition>
-        </RouterView>
-      </div>
-
-      <newFooter />
-    </div>
-  </div>
-</template>
