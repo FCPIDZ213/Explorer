@@ -24,7 +24,7 @@
         class="link link-primary no-underline"
         href="https://github.com/CoinHuntersTR"
         target="noopener noreferrer"
-        >CoinHunters Github</a
+        >DZ-staking Github</a
       >
     </div>
   </footer>
