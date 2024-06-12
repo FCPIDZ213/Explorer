@@ -12,7 +12,7 @@
             "provider": "DZ-staking"
         }
     ],
-    "sdk_version": "v0.0.0-20240514173001-c037b6c44d98",
+    "sdk_version": "v0.50.6",
     "coin_type": "60",
     "min_tx_fee": "500",
     "assets": [{
