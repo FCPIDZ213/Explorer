@@ -2,13 +2,13 @@
     "chain_name": "initia",
     "api": [
         {
-            "address": "https://initia-api.chainad.org/", 
-            "provider": "CoinHunters"
+            "address": "https://initia-testnet-api.go2pro.xyz", 
+            "provider": ""
         }
     ], 
     "rpc": [
         {
-            "address": "https://rpc.initia.dz-staking.com/", 
+            "address": "https://rpc.initia.dz-staking.com", 
             "provider": "DZ-staking"
         }
     ],
